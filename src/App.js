@@ -12,14 +12,7 @@ import { async } from '@firebase/util';
 
 firebase.initializeApp({
   //configuration if firebase
-  apiKey: "AIzaSyCdGuRNw7KgGCNpa0vMPKw6fRKBtGJ_Udw",
-  authDomain: "chat-app-15c5e.firebaseapp.com",
-  projectId: "chat-app-15c5e",
-  databaseURL: "https:/chat-app-15c5e.firebaseio.com",
-  storageBucket: "chat-app-15c5e.appspot.com",
-  messagingSenderId: "943151396752",
-  appId: "1:943151396752:web:f591df3848da7060242515",
-  measurementId: "G-WLVJ13S577"
+  
 })
 
 const auth = firebase.auth();
